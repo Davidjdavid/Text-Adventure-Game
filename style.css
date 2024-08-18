@@ -1,0 +1,46 @@
+/*  Root, body, and Main Div  */
+
+:root {
+    --colorBlack: #000000;
+    --gradeOne: #F7F9F9;
+    --gradeTwo: #BED8D4;
+    --gradeThree: #78D5D7;
+    --gradeFour: #63D2FF;
+    --gradeFive: #2081C3;
+}
+
+body {
+    background-color: var(--gradeOne);
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+/*  Navigation  */
+
+.navBar {
+    background-color: var(--gradeFour);
+}
+
+.links {
+
+}
+
+/*  Game Area and Screen  */
+
+.gameArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.gameScreen {
+    background-color: var(--colorBlack);
+    height: 380px;
+    width: 640px;
+}
